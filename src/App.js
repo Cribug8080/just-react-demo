@@ -1,8 +1,9 @@
 import { useRef } from "react";
 import { Router, Route, Routes } from "react-router";
 // import { Redirect, Route, Switch, Routes } from "react-router-dom";
-import Number from "./Number";
-import EventDemo from "./EventDemo";
+// import Number from "./Number";
+import Status from "./Status";
+// import EventDemo from "./EventDemo";
 import "./styles.css";
 
 function Main() {
@@ -28,7 +29,7 @@ export default function App() {
   // );
   return (
     <div>
-      <EventDemo />
+      <Status />
       {/* <Routers history={hashHistory}>
         <Route path="/1" component={() => <div>1</div>} />
         <Route path="/2" component={() => <div>2</div>} />
