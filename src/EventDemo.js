@@ -89,7 +89,7 @@ function Descibe() {
         上，而是通过事件代理的方式，将所有的事件都统一绑定在了 document 上。
         另外冒泡到 document 上的事件也不是原生浏览器事件，而是 React
         自己实现的合成事件（SyntheticEvent）。因此我们如果不想要事件冒泡的话，调用
-        event.stopPropagation 是无效的，而应该调用 event.preventDefault。
+        event.stopPropagation 是无效的，而应该调用 event.preventDefault
       </div>
     </div>
   );
