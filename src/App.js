@@ -1,8 +1,10 @@
 import { useRef } from "react";
-import { Router, Route, Routes } from "react-router";
+// import { Router, Route, Routes } from "react-router";
 // import { Redirect, Route, Switch, Routes } from "react-router-dom";
 // import Number from "./Number";
-import Status from "./Status";
+// import Status from "./Status";
+// import PureCom from "./pureCom";
+import ContextDemo from "./ContextDemo";
 // import EventDemo from "./EventDemo";
 import "./styles.css";
 
@@ -29,7 +31,7 @@ export default function App() {
   // );
   return (
     <div>
-      <Status />
+      <ContextDemo />
       {/* <Routers history={hashHistory}>
         <Route path="/1" component={() => <div>1</div>} />
         <Route path="/2" component={() => <div>2</div>} />
